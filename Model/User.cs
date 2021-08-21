@@ -4,7 +4,15 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class User
+    abstract class User
     {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Phone { get; set; }
+        public Location Address { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+
+        public abstract bool Login(string email, string password);
     }
 }
