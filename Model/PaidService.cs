@@ -6,7 +6,6 @@ namespace Salão_Model.Model
 {
     class PaidService
     {
-        public int ID { get; set; }
         public Payment Payment { get; set; }
         public Service Service { get; set; }
     }

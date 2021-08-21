@@ -6,9 +6,8 @@ namespace Salão_Model.Model
 {
     class Admin : User
     {
-        public Admin(int id, string name, string email, string password)
+        public Admin(string name, string email, string password)
         {
-            ID = id;
             Name = name;
             Email = email;
             Password = password;

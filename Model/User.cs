@@ -6,7 +6,6 @@ namespace Salão_Model.Model
 {
     abstract class User
     {
-        public int ID { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
         public Location Address { get; set; }

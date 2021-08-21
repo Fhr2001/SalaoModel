@@ -9,9 +9,8 @@ namespace Salão_Model.Model
         private List<ServiceProvider> ServicesProvided;
         private List<Agenda> Agendas;
 
-        public Client(int id, string name, string email, string password, Location address, string phone)
+        public Client(string name, string email, string password, Location address, string phone)
         {
-            ID = id;
             Name = name;
             Email = email;
             Password = password;

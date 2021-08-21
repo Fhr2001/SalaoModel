@@ -8,9 +8,8 @@ namespace Salão_Model.Model
     {
         public List<Service> LicensedServices { get; set; }
 
-        public Provider(int id, string name, string email, string password, string phone)
+        public Provider(string name, string email, string password, string phone)
         {
-            ID = id;
             Name = name;
             Email = email;
             Password = password;

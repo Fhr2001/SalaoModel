@@ -7,9 +7,8 @@ namespace Salão_Model.Model
 {
     class Cashier : User
     {
-        public Cashier(int id, string name, string email, string password)
+        public Cashier(string name, string email, string password)
         {
-            ID = id;
             Name = name;
             Email = email;
             Password = password;
