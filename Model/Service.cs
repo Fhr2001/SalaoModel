@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Salão_Model.Enum;
+
+namespace Salão_Model.Model
+{
+    class Service
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public double Price { get; set; }
+        public ServiceStatus Status { get; set; }
+
+        public Service()
+        {
+            
+        }
+
+    }
+}

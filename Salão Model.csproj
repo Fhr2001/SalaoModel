@@ -8,8 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Comnun\" />
-    <Folder Include="ReSource\" />
+    <Compile Remove="Comnun\**" />
+    <EmbeddedResource Remove="Comnun\**" />
+    <None Remove="Comnun\**" />
   </ItemGroup>
 
 </Project>
