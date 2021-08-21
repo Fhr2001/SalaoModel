@@ -6,6 +6,11 @@ namespace Salão_Model.Model
 {
     class Location
     {
-        
+        public string Country { get; set; }
+        public string State { get; set; }
+        public string City { get; set; }
+        public string Address { get; set; }
+        public string AddressNumber { get; set; }
+        public string AddressComplement { get; set; }
     }
 }
