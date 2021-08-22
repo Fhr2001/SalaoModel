@@ -1,5 +1,5 @@
 ﻿
-namespace Salão_Model.Form
+namespace Salão_Model.WinForm
 {
     partial class Inicial
     {
