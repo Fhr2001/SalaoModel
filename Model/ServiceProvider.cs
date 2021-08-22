@@ -11,11 +11,11 @@ namespace Salão_Model.Model
         public Provider Provider { get; private set; }
         public ServiceProviderStatus Status { get; set; }
 
-        public void start(){
+        public void Start(){
             Status = ServiceProviderStatus.InProgress;
         }
 
-        public void finish(){
+        public void Finish(){
             Status = ServiceProviderStatus.Concluded;
         }
     }
