@@ -14,7 +14,7 @@ namespace Salão_Model.Model
         }
 
         public override bool Login(string email, string password){
-            throw NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

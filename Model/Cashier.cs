@@ -17,9 +17,11 @@ namespace Salão_Model.Model
         public override bool Login(string email, string password){
             throw new NotImplementedException();
         }
+
         public void StartPayment(Client client){
             throw new NotImplementedException();
         }
+
         public void DoPayment(string forma, double price, List<ServiceProvider> servicesProviders){
             throw new NotImplementedException();
         }

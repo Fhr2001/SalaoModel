@@ -14,6 +14,7 @@ namespace Salão_Model.Model
         public void start(){
             Status = ServiceProviderStatus.InProgress;
         }
+
         public void finish(){
             Status = ServiceProviderStatus.Concluded;
         }
