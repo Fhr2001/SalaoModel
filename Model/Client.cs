@@ -6,6 +6,7 @@ namespace Salão_Model.Model
 {
     class Client : User
     {
+        public Location Address { get; set; }
         private List<ServiceProvider> ServicesProvided;
         private List<Agenda> Agendas;
 
