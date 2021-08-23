@@ -10,13 +10,14 @@ namespace Salão_Model.Model
         private List<ServiceProvider> ServicesProvided;
         private List<Agenda> Agendas;
 
-        public Client(string name, string email, string password, Location address, string phone)
+        public Client(string name, string email, string password, string phone, string gender, Location address)
         {
             Name = name;
             Email = email;
             Password = password;
             Address = address;
             Phone = phone;
+            Gender = gender;
             ServicesProvided = new List<ServiceProvider>();
             Agendas = new List<Agenda>();
         }
@@ -35,7 +36,9 @@ namespace Salão_Model.Model
         }
 
         public List<ServiceProvider> GetServiceProvider(DateTime dateTime){
-            throw new NotImplementedException();
+            if (dateTime == null)
+                return ServicesProvided;
+            return ServiceProvider.GetAgendas(dateTime);
         }
 
         public bool ValidateConclusion(Service service){
