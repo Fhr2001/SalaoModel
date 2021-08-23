@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class Client : User
+    public class Client : User
     {
         public Location Address { get; set; }
         private List<ServiceProvider> ServicesProvided;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class Agenda
+    public class Agenda
     {
         public DateTime DateTime { get; private set; }
         public ServiceProvider ServiceProvider { get; private set; }

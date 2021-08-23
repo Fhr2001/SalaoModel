@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class Admin : User
+    public class Admin : User
     {
         public Admin(string name, string email, string password)
         {

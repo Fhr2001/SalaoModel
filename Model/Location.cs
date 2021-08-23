@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class Location
+    public class Location
     {
         public string Country { get; set; }
         public string State { get; set; }

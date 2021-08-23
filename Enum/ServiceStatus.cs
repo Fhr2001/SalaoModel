@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Enum
 {
-    enum ServiceStatus
+    public enum ServiceStatus
     {
         Active,
         Inactive

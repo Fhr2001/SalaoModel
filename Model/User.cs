@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    abstract class User
+    public abstract class User
     {
         public string Name { get; set; }
         public string Phone { get; set; }

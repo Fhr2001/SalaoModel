@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class PaidService
+    public class PaidService
     {
         public Payment Payment { get; set; }
         public Service Service { get; set; }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Enum
 {
-    enum ServiceProviderStatus
+    public enum ServiceProviderStatus
     {
         NotStarted,
         InProgress,

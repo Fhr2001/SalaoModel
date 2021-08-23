@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class Cashier : User
+    public class Cashier : User
     {
         public Cashier(string name, string email, string password)
         {

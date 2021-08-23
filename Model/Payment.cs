@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class Payment
+    public class Payment
     {
         public Cashier PaidBy { get; set; }
         

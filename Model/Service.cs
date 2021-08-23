@@ -5,7 +5,7 @@ using Salão_Model.Enum;
 
 namespace Salão_Model.Model
 {
-    class Service
+    public class Service
     {
         public string Name { get; set; }
         public double Price { get; set; }

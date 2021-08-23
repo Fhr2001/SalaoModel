@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Salão_Model.Model
 {
-    class Provider : User
+    public class Provider : User
     {
         public List<Service> LicensedServices { get; set; }
 
