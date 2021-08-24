@@ -38,7 +38,7 @@ namespace Salão_Model.Common
             return new Client().Login(users, email, password);
         }
 
-        public Client RegisterClient(string name, string email, string password, string gender, string phone, Location address)
+        public Client RegisterClient(string name, string email, string password, string gender, string phone, string address)
         {
             var client = new Client(
                 name: name, email: email, 
@@ -53,7 +53,7 @@ namespace Salão_Model.Common
             return currentClient;
         }
 
-        public Client UpdateClient(string email, string password, string gender, string phone, Location address)
+        public Client UpdateClient(string email, string password, string gender, string phone, string address)
         {
             int index = GetIndexOfUsers(currentClient);
 
@@ -84,7 +84,8 @@ namespace Salão_Model.Common
         public Agenda CreateAgenda(Service service, DateTime dateTime, Provider provider)
         {
             Agenda agenda = new Agenda(service, provider, dateTime);
-            
+            currentClient = agenda.LinkToClient(currentClient);
+
             agendas.Add(agenda);
             serviceProviders.Add(agenda.ServiceProvider);
             

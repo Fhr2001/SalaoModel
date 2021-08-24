@@ -6,7 +6,7 @@ namespace Salão_Model.Model
 {
     public class Client : User
     {
-        public Location Address { get; set; }
+        public string Address { get; set; }
         private List<ServiceProvider> ServicesProvided;
         private List<Agenda> Agendas;
 
@@ -15,7 +15,7 @@ namespace Salão_Model.Model
 
         }
 
-        public Client(string name, string email, string password, string phone, string gender, Location address)
+        public Client(string name, string email, string password, string phone, string gender, string address)
         {
             Name = name;
             Email = email;
@@ -31,7 +31,7 @@ namespace Salão_Model.Model
             return GetClient(users, email, password) != null;
         }
 
-        public void Update(string email, string password, string gender, string phone, Location address)
+        public void Update(string email, string password, string gender, string phone, string address)
         {
             Email = email ?? Email;
             Password = password ?? Password;
