@@ -5,11 +5,18 @@ using Salão_Model.Enum;
 
 namespace Salão_Model.Model
 {
-    class ServiceProvider
+    public class ServiceProvider
     {
         public Service Service { get; private set; }
         public Provider Provider { get; private set; }
         public ServiceProviderStatus Status { get; set; }
+
+        public ServiceProvider(Service service, Provider provider)
+        {
+            Service = service;
+            Provider = provider;
+            Status = ServiceProviderStatus.NotStarted;
+        }
 
         public void Start(){
             Status = ServiceProviderStatus.InProgress;
@@ -17,6 +24,16 @@ namespace Salão_Model.Model
 
         public void Finish(){
             Status = ServiceProviderStatus.Concluded;
+        }
+
+        public static List<Agenda> GetAgendas(DateTime dateTime)
+        {
+            return new List<Agenda>();
+        }
+
+        public static List<ServiceProvider> GetFiltered(DateTime dateTime)
+        {
+            return new List<ServiceProvider>();
         }
     }
 }

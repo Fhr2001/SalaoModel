@@ -8,5 +8,11 @@ namespace Salão_Model.Model
     {
         public DateTime DateTime { get; private set; }
         public ServiceProvider ServiceProvider { get; private set; }
+
+        public Agenda(Service service, Provider provider, DateTime dateTime)
+        {
+            ServiceProvider = new ServiceProvider(service, provider);
+            DateTime = dateTime;
+        }
     }
 }

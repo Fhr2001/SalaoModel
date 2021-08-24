@@ -7,11 +7,12 @@ namespace Salão_Model.Model
 {
     public class Cashier : User
     {
-        public Cashier(string name, string email, string password)
+        public Cashier(string name, string email, string password, string phone)
         {
             Name = name;
             Email = email;
             Password = password;
+            Phone = phone;
         }
 
         public override bool Login(string email, string password){
