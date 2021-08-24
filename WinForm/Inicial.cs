@@ -41,5 +41,11 @@ namespace Salão_Model.WinForm
             AddClient addclient = new AddClient();
             addclient.ShowDialog();
         }
+
+        private void clienteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ConsultaClient consultaClient = new ConsultaClient();
+            consultaClient.ShowDialog();
+        }
     }
 }

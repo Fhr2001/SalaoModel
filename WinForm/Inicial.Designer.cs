@@ -42,9 +42,6 @@ namespace Salão_Model.WinForm
             this.clienteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.funcionárioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.serviçoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.serviçoToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.serviçoToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,20 +72,20 @@ namespace Salão_Model.WinForm
             // menu_cliente
             // 
             this.menu_cliente.Name = "menu_cliente";
-            this.menu_cliente.Size = new System.Drawing.Size(180, 22);
+            this.menu_cliente.Size = new System.Drawing.Size(137, 22);
             this.menu_cliente.Text = "Cliente";
             this.menu_cliente.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
             // caixaToolStripMenuItem
             // 
             this.caixaToolStripMenuItem.Name = "caixaToolStripMenuItem";
-            this.caixaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.caixaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.caixaToolStripMenuItem.Text = "Caixa";
             // 
             // funcionárioToolStripMenuItem
             // 
             this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.funcionárioToolStripMenuItem.Text = "Funcionário";
             // 
             // agendaToolStripMenuItem
@@ -124,10 +121,7 @@ namespace Salão_Model.WinForm
             this.consultaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem1,
             this.funcionárioToolStripMenuItem1,
-            this.serviçoToolStripMenuItem1,
-            this.serviçoToolStripMenuItem2,
-            this.serviçoToolStripMenuItem3,
-            this.sToolStripMenuItem});
+            this.serviçoToolStripMenuItem1});
             this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
             this.consultaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consultaToolStripMenuItem.Text = "Consulta";
@@ -135,39 +129,21 @@ namespace Salão_Model.WinForm
             // clienteToolStripMenuItem1
             // 
             this.clienteToolStripMenuItem1.Name = "clienteToolStripMenuItem1";
-            this.clienteToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
+            this.clienteToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.clienteToolStripMenuItem1.Text = "Cliente";
+            this.clienteToolStripMenuItem1.Click += new System.EventHandler(this.clienteToolStripMenuItem1_Click);
             // 
             // funcionárioToolStripMenuItem1
             // 
             this.funcionárioToolStripMenuItem1.Name = "funcionárioToolStripMenuItem1";
-            this.funcionárioToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
+            this.funcionárioToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.funcionárioToolStripMenuItem1.Text = "Funcionário";
             // 
             // serviçoToolStripMenuItem1
             // 
             this.serviçoToolStripMenuItem1.Name = "serviçoToolStripMenuItem1";
-            this.serviçoToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
+            this.serviçoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.serviçoToolStripMenuItem1.Text = "Serviço";
-            // 
-            // serviçoToolStripMenuItem2
-            // 
-            this.serviçoToolStripMenuItem2.Name = "serviçoToolStripMenuItem2";
-            this.serviçoToolStripMenuItem2.Size = new System.Drawing.Size(137, 22);
-            this.serviçoToolStripMenuItem2.Text = "Se";
-            this.serviçoToolStripMenuItem2.Click += new System.EventHandler(this.serviçoToolStripMenuItem2_Click);
-            // 
-            // serviçoToolStripMenuItem3
-            // 
-            this.serviçoToolStripMenuItem3.Name = "serviçoToolStripMenuItem3";
-            this.serviçoToolStripMenuItem3.Size = new System.Drawing.Size(137, 22);
-            this.serviçoToolStripMenuItem3.Text = "S";
-            // 
-            // sToolStripMenuItem
-            // 
-            this.sToolStripMenuItem.Name = "sToolStripMenuItem";
-            this.sToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.sToolStripMenuItem.Text = "S";
             // 
             // Inicial
             // 
@@ -201,8 +177,5 @@ namespace Salão_Model.WinForm
         private System.Windows.Forms.ToolStripMenuItem agendaToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem funcionárioToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem serviçoToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem serviçoToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem serviçoToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem sToolStripMenuItem;
     }
 }

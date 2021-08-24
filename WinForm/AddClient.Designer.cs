@@ -132,6 +132,7 @@ namespace Salão_Model.WinForm
             this.tb_endereco.Name = "tb_endereco";
             this.tb_endereco.Size = new System.Drawing.Size(260, 23);
             this.tb_endereco.TabIndex = 10;
+            this.tb_endereco.TextChanged += new System.EventHandler(this.tb_endereco_TextChanged);
             // 
             // label6
             // 
@@ -148,7 +149,7 @@ namespace Salão_Model.WinForm
             this.panel1.Controls.Add(this.btn_salvar);
             this.panel1.Controls.Add(this.btn_cancelar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 243);
+            this.panel1.Location = new System.Drawing.Point(0, 184);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(692, 30);
             this.panel1.TabIndex = 12;
@@ -162,6 +163,7 @@ namespace Salão_Model.WinForm
             this.btn_alterar.TabIndex = 2;
             this.btn_alterar.Text = "Alterar";
             this.btn_alterar.UseVisualStyleBackColor = true;
+            this.btn_alterar.Click += new System.EventHandler(this.btn_alterar_Click);
             // 
             // btn_salvar
             // 
@@ -172,6 +174,7 @@ namespace Salão_Model.WinForm
             this.btn_salvar.TabIndex = 1;
             this.btn_salvar.Text = "Salvar";
             this.btn_salvar.UseVisualStyleBackColor = true;
+            this.btn_salvar.Click += new System.EventHandler(this.btn_salvar_Click);
             // 
             // btn_cancelar
             // 
@@ -199,7 +202,7 @@ namespace Salão_Model.WinForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 273);
+            this.ClientSize = new System.Drawing.Size(692, 214);
             this.Controls.Add(this.cb_genero);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tb_endereco);

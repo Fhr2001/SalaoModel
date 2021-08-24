@@ -12,5 +12,10 @@ namespace Salão_Model.Model
         public string Address { get; set; }
         public string AddressNumber { get; set; }
         public string AddressComplement { get; set; }
+
+        public static implicit operator Location(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
