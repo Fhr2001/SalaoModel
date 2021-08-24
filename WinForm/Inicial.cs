@@ -13,6 +13,33 @@ namespace Salão_Model.WinForm
         public Inicial()
         {
             InitializeComponent();
+
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void serviçoToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Inicial_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddClient addclient = new AddClient();
+            addclient.ShowDialog();
         }
     }
 }
