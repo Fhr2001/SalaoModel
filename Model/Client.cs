@@ -49,7 +49,7 @@ namespace Salão_Model.Model
             Agendas.Add(agenda);
         }
 
-        public List<ServiceProvider> GetServiceProvider(DateTime dateTime){
+        public List<ServiceProvider> GetServicesProvider(DateTime dateTime){
             if (dateTime == null)
                 return ServicesProvided;
             return ServiceProvider.GetFiltered(dateTime);

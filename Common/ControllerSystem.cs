@@ -84,6 +84,10 @@ namespace Salão_Model.Common
         public Agenda CreateAgenda(Service service, DateTime dateTime, Provider provider)
         {
             Agenda agenda = new Agenda(service, provider, dateTime);
+
+            if (!CheckAvailability(agenda))
+                return null;
+
             currentClient = agenda.LinkToClient(currentClient);
 
             agendas.Add(agenda);
