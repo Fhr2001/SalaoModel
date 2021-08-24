@@ -101,13 +101,14 @@ namespace Salão_Model.WinForm
             // serviçoToolStripMenuItem
             // 
             this.serviçoToolStripMenuItem.Name = "serviçoToolStripMenuItem";
-            this.serviçoToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.serviçoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.serviçoToolStripMenuItem.Text = "Serviço";
+            this.serviçoToolStripMenuItem.Click += new System.EventHandler(this.serviçoToolStripMenuItem_Click);
             // 
             // agendaToolStripMenuItem1
             // 
             this.agendaToolStripMenuItem1.Name = "agendaToolStripMenuItem1";
-            this.agendaToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
+            this.agendaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.agendaToolStripMenuItem1.Text = "Agenda";
             // 
             // pagamentoToolStripMenuItem
@@ -129,20 +130,20 @@ namespace Salão_Model.WinForm
             // clienteToolStripMenuItem1
             // 
             this.clienteToolStripMenuItem1.Name = "clienteToolStripMenuItem1";
-            this.clienteToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.clienteToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
             this.clienteToolStripMenuItem1.Text = "Cliente";
             this.clienteToolStripMenuItem1.Click += new System.EventHandler(this.clienteToolStripMenuItem1_Click);
             // 
             // funcionárioToolStripMenuItem1
             // 
             this.funcionárioToolStripMenuItem1.Name = "funcionárioToolStripMenuItem1";
-            this.funcionárioToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.funcionárioToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
             this.funcionárioToolStripMenuItem1.Text = "Funcionário";
             // 
             // serviçoToolStripMenuItem1
             // 
             this.serviçoToolStripMenuItem1.Name = "serviçoToolStripMenuItem1";
-            this.serviçoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.serviçoToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
             this.serviçoToolStripMenuItem1.Text = "Serviço";
             // 
             // Inicial

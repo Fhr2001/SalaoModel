@@ -41,7 +41,6 @@ namespace Salão_Model.WinForm
             this.tb_endereco = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_alterar = new System.Windows.Forms.Button();
             this.btn_salvar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.cb_genero = new System.Windows.Forms.ComboBox();
@@ -145,7 +144,6 @@ namespace Salão_Model.WinForm
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btn_alterar);
             this.panel1.Controls.Add(this.btn_salvar);
             this.panel1.Controls.Add(this.btn_cancelar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -154,17 +152,6 @@ namespace Salão_Model.WinForm
             this.panel1.Size = new System.Drawing.Size(692, 30);
             this.panel1.TabIndex = 12;
             // 
-            // btn_alterar
-            // 
-            this.btn_alterar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_alterar.Location = new System.Drawing.Point(10, 0);
-            this.btn_alterar.Name = "btn_alterar";
-            this.btn_alterar.Size = new System.Drawing.Size(75, 23);
-            this.btn_alterar.TabIndex = 2;
-            this.btn_alterar.Text = "Alterar";
-            this.btn_alterar.UseVisualStyleBackColor = true;
-            this.btn_alterar.Click += new System.EventHandler(this.btn_alterar_Click);
-            // 
             // btn_salvar
             // 
             this.btn_salvar.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -172,7 +159,7 @@ namespace Salão_Model.WinForm
             this.btn_salvar.Name = "btn_salvar";
             this.btn_salvar.Size = new System.Drawing.Size(75, 23);
             this.btn_salvar.TabIndex = 1;
-            this.btn_salvar.Text = "Salvar";
+            this.btn_salvar.Text = "Registar";
             this.btn_salvar.UseVisualStyleBackColor = true;
             this.btn_salvar.Click += new System.EventHandler(this.btn_salvar_Click);
             // 
@@ -243,7 +230,6 @@ namespace Salão_Model.WinForm
         private System.Windows.Forms.TextBox tb_endereco;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btn_alterar;
         private System.Windows.Forms.Button btn_salvar;
         private System.Windows.Forms.Button btn_cancelar;
         private System.Windows.Forms.ComboBox cb_genero;

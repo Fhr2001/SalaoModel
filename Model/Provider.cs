@@ -25,5 +25,38 @@ namespace Salão_Model.Model
         {
             LicensedServices.Add(service);
         }
+
+        #region Static Methods
+        public static Provider GetProvider(List<User> users, string email, string password)
+        {
+            return (Provider)users.FindLast(u => u.Email == email && u.Password == password && u.GetType() == typeof(Provider));
+        }
+
+        public static List<Provider> GetProviders(List<User> users)
+        {
+            var objs = users.FindAll(u => u.GetType() == typeof(Provider));
+            var providers = new List<Provider>();
+            foreach (var obj in objs)
+            {
+                providers.Add(obj as Provider);
+            }
+
+            return providers;
+        }
+
+        public static List<Provider> GetLicensedProviders(List<User> users, Service service)
+        {
+            var objs = users.FindAll(u => u.GetType() == typeof(Provider));
+            var providers = new List<Provider>();
+            foreach (var obj in objs)
+            {
+                var provider = obj as Provider;
+                if (provider.LicensedServices.Contains(service))
+                    providers.Add(provider);
+            }
+
+            return providers;
+        }
+        #endregion
     }
 }

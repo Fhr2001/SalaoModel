@@ -55,18 +55,14 @@ namespace Salão_Model.WinForm
         {
             ControllerSystem controller = ControllerSystem.GetInstance();
 
-            controller.RegisterClient(tb_nome.Text, tb_email.Text, tb_senha.Text, cb_genero.Text, tb_senha.Text, tb_endereco.Text);
+            var client = controller.RegisterClient(tb_nome.Text, tb_email.Text, tb_senha.Text, cb_genero.Text, tb_senha.Text, tb_endereco.Text);
+            if (client != null)
+                MessageBox.Show("Sucesso!");
         }
 
         private void tb_endereco_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void btn_alterar_Click(object sender, EventArgs e)
-        {
-            ControllerSystem controller = ControllerSystem.GetInstance();
-            controller.UpdateClient(tb_email.Text, tb_senha.Text, cb_genero.Text, tb_senha.Text, tb_endereco.Text);
         }
     }
 }

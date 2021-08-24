@@ -34,7 +34,7 @@ namespace Salão_Model.Model
         #region Static Methods
         public static bool CheckAvailability(List<Agenda> agendas, Agenda agenda)
         {
-            return agendas.Exists(
+            return !agendas.Exists(
                 ag => ag.ServiceProvider.Provider == agenda.ServiceProvider.Provider 
                 && ag.DateTime == agenda.DateTime);
         }

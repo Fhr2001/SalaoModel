@@ -31,8 +31,9 @@ namespace Salão_Model.Model
             return GetClient(users, email, password) != null;
         }
 
-        public void Update(string email, string password, string gender, string phone, string address)
+        public void Update(string name, string email, string password, string gender, string phone, string address)
         {
+            Name = name ?? Name;
             Email = email ?? Email;
             Password = password ?? Password;
             Gender = gender ?? Gender;

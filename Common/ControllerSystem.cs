@@ -9,7 +9,6 @@ namespace Salão_Model.Common
     public class ControllerSystem
     {
         private static ControllerSystem controllerSystem;
-        private static User currentUser;
         private static Client currentClient;
         
         private static List<Service> services;
@@ -19,7 +18,6 @@ namespace Salão_Model.Common
 
         private ControllerSystem()
         {
-            currentUser = null;
             services = new List<Service>();
             users = new List<User>();
             agendas = new List<Agenda>();
@@ -49,7 +47,7 @@ namespace Salão_Model.Common
 
         public Client ReadClient(string email, string password)
         {
-            currentClient = (Client)users.FindLast(u => u.Email == email && u.Password == password && u.GetType() == typeof(Client));
+            currentClient = Client.GetClient(users, email, password);
             return currentClient;
         }
 
@@ -58,11 +56,11 @@ namespace Salão_Model.Common
             return Client.GetClients(users);
         }
 
-        public Client UpdateClient(string email, string password, string gender, string phone, string address)
+        public Client UpdateClient(string name, string email, string password, string gender, string phone, string address)
         {
             int index = GetIndexOfUsers(currentClient);
 
-            currentClient.Update(email, password, gender, phone, address);
+            currentClient.Update(name, email, password, gender, phone, address);
             users[index] = currentClient;
 
             return currentClient;
@@ -101,6 +99,13 @@ namespace Salão_Model.Common
             return agenda;
         }
 
+        public Service CreateService(string name, double price)
+        {
+            var service = new Service(name: name, price: price);
+            services.Add(service);
+            return service;
+        }
+
         public List<Service> GetServices(ServiceStatus serviceStatus=ServiceStatus.Active)
         {
             return services.FindAll(s => s.Status == serviceStatus);
@@ -122,6 +127,21 @@ namespace Salão_Model.Common
 
             agenda.StartService();
             serviceProviders[index] = agenda.ServiceProvider;
+        }
+
+        public Provider ReadProvider(string email, string password)
+        {
+            return Provider.GetProvider(users, email, password);
+        }
+
+        public List<Provider> ReadListProvider()
+        {
+            return Provider.GetProviders(users);
+        }
+
+        public List<Provider> ReadListProvider(Service service)
+        {
+            return Provider.GetLicensedProviders(users, service);
         }
 
         public void AddLincensedService(Provider provider, Service service)
