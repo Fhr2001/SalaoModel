@@ -1,3 +1,85 @@
 {
-
+  "Service":
+  [
+    {
+      "Name": "Reflexo",
+      "Price": "$1,092.64",
+      "Status": "Active"
+    },
+    {
+      "Name": "Pedicure",
+      "Price": "$819.22",
+      "Status": "Inactive"
+    },
+    {
+      "Name": "Coloração",
+      "Price": "$509.17",
+      "Status": "Active"
+    },
+    {
+      "Name": "Depilação",
+      "Price": "$294.39",
+      "Status": "Inactive"
+    },
+    {
+      "Name": "Drenagem Linfática",
+      "Price": "$201.05",
+      "Status": "Active"
+    },
+    {
+      "Name": "Limpeza de pele",
+      "Price": "$299.56",
+      "Status": "Active"
+    },
+    {
+      "Name": "Hidratação",
+      "Price": "$982.05",
+      "Status": "Active"
+    },
+    {
+      "Name": "Maquiagem",
+      "Price": "$899.44",
+      "Status": "Active"
+    },
+    {
+      "Name": "Depilação",
+      "Price": "$767.60",
+      "Status": "Active"
+    },
+    {
+      "Name": "Coloração",
+      "Price": "$1,018.77",
+      "Status": "Active"
+    },
+    {
+      "Name": "Drenagem Linfática",
+      "Price": "$161.59",
+      "Status": "Active"
+    },
+    {
+      "Name": "Coloração",
+      "Price": "$573.01",
+      "Status": "Active"
+    },
+    {
+      "Name": "Drenagem Linfática",
+      "Price": "$568.38",
+      "Status": "Inactive"
+    },
+    {
+      "Name": "Reconstrução",
+      "Price": "$424.63",
+      "Status": "Active"
+    },
+    {
+      "Name": "Manicure",
+      "Price": "$1,070.95",
+      "Status": "Inactive"
+    },
+    {
+      "Name": "Drenagem Linfática",
+      "Price": "$932.54",
+      "Status": "Active"
+    }
+  ]
 }

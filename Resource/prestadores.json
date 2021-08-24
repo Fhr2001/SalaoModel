@@ -1,3 +1,125 @@
 {
-
+  "Provider":
+  [
+    {
+      "Name": "Bauer Harris",
+      "Email": "bauerharris@twiist.com",
+      "Password": "ullamco",
+      "Phone": "+55 (89)85043-820"
+    },
+    {
+      "Name": "Bond Mccormick",
+      "Email": "bondmccormick@twiist.com",
+      "Password": "nisi",
+      "Phone": "+55 (80)34092-419"
+    },
+    {
+      "Name": "Hutchinson Chambers",
+      "Email": "hutchinsonchambers@twiist.com",
+      "Password": "laboris",
+      "Phone": "+55 (88)94583-444"
+    },
+    {
+      "Name": "Elisa Miles",
+      "Email": "elisamiles@twiist.com",
+      "Password": "dolor",
+      "Phone": "+55 (95)35412-913"
+    },
+    {
+      "Name": "Leah Hartman",
+      "Email": "leahhartman@twiist.com",
+      "Password": "commodo",
+      "Phone": "+55 (89)94442-150"
+    },
+    {
+      "Name": "Howard Hines",
+      "Email": "howardhines@twiist.com",
+      "Password": "occaecat",
+      "Phone": "+55 (80)34473-393"
+    },
+    {
+      "Name": "Hunter Callahan",
+      "Email": "huntercallahan@twiist.com",
+      "Password": "nisi",
+      "Phone": "+55 (86)94062-083"
+    },
+    {
+      "Name": "Willis Carey",
+      "Email": "williscarey@twiist.com",
+      "Password": "reprehenderit",
+      "Phone": "+55 (85)45252-519"
+    },
+    {
+      "Name": "Castaneda Gregory",
+      "Email": "castanedagregory@twiist.com",
+      "Password": "ad",
+      "Phone": "+55 (97)04223-722"
+    },
+    {
+      "Name": "Rush Weiss",
+      "Email": "rushweiss@twiist.com",
+      "Password": "culpa",
+      "Phone": "+55 (90)35693-986"
+    },
+    {
+      "Name": "Tessa Watson",
+      "Email": "tessawatson@twiist.com",
+      "Password": "fugiat",
+      "Phone": "+55 (81)84123-011"
+    },
+    {
+      "Name": "Mccoy Hyde",
+      "Email": "mccoyhyde@twiist.com",
+      "Password": "laborum",
+      "Phone": "+55 (96)95683-576"
+    },
+    {
+      "Name": "Blackwell Bentley",
+      "Email": "blackwellbentley@twiist.com",
+      "Password": "nisi",
+      "Phone": "+55 (81)75663-563"
+    },
+    {
+      "Name": "Catherine Yang",
+      "Email": "catherineyang@twiist.com",
+      "Password": "Lorem",
+      "Phone": "+55 (88)64713-944"
+    },
+    {
+      "Name": "Dunlap Whitehead",
+      "Email": "dunlapwhitehead@twiist.com",
+      "Password": "ut",
+      "Phone": "+55 (91)55442-856"
+    },
+    {
+      "Name": "Mai Patton",
+      "Email": "maipatton@twiist.com",
+      "Password": "do",
+      "Phone": "+55 (91)54463-435"
+    },
+    {
+      "Name": "Brandi Mcgee",
+      "Email": "brandimcgee@twiist.com",
+      "Password": "laborum",
+      "Phone": "+55 (97)64422-524"
+    },
+    {
+      "Name": "Earline Lancaster",
+      "Email": "earlinelancaster@twiist.com",
+      "Password": "aliquip",
+      "Phone": "+55 (83)34093-820"
+    },
+    {
+      "Name": "Owen Delaney",
+      "Email": "owendelaney@twiist.com",
+      "Password": "sit",
+      "Phone": "+55 (83)64932-321"
+    },
+    {
+      "Name": "Carmella Cantrell",
+      "Email": "carmellacantrell@twiist.com",
+      "Password": "proident",
+      "Phone": "+55 (83)64333-495"
+    }
+  ]
 }

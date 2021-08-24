@@ -1,3 +1,201 @@
 {
+  "Client": [
+    {
+      "Name": "Frazier Shields",
+      "Email": "fraziershields@ramjob.com",
+      "Password": "et",
+      "Address": "108 Vandervoort Avenue, Retsof, Maine, 643",
+      "Phone": "+55 (93)65522-499"
+    },
+    {
+      "Name": "Lyons Hewitt",
+      "Email": "lyonshewitt@ramjob.com",
+      "Password": "aliqua",
+      "Address": "650 Jodie Court, Sparkill, Northern Mariana Islands, 9500",
+      "Phone": "+55 (94)25793-113"
+    },
+    {
+      "Name": "Delia Reese",
+      "Email": "deliareese@ramjob.com",
+      "Password": "eu",
+      "Address": "319 Huron Street, Evergreen, Illinois, 8875",
+      "Phone": "+55 (83)95143-548"
+    },
+    {
+      "Name": "Evangelina Roberts",
+      "Email": "evangelinaroberts@ramjob.com",
+      "Password": "ullamco",
+      "Address": "836 Front Street, Spelter, Palau, 5647",
+      "Phone": "+55 (91)25272-928"
+    },
+    {
+      "Name": "Jannie Stout",
+      "Email": "janniestout@ramjob.com",
+      "Password": "esse",
+      "Address": "289 Interborough Parkway, Kennedyville, Maryland, 4618",
+      "Phone": "+55 (91)64683-190"
+    },
+    {
+      "Name": "Potter Nicholson",
+      "Email": "potternicholson@ramjob.com",
+      "Password": "deserunt",
+      "Address": "405 Fleet Street, Hayes, Oregon, 9116",
+      "Phone": "+55 (96)64293-837"
+    },
+    {
+      "Name": "Garrett Duran",
+      "Email": "garrettduran@ramjob.com",
+      "Password": "eu",
+      "Address": "621 Gaylord Drive, Grimsley, Iowa, 135",
+      "Phone": "+55 (88)95773-970"
+    },
+    {
+      "Name": "Ward Hall",
+      "Email": "wardhall@ramjob.com",
+      "Password": "non",
+      "Address": "848 Hopkins Street, Jamestown, Idaho, 5716",
+      "Phone": "+55 (89)65162-064"
+    },
+    {
+      "Name": "Roxanne Tillman",
+      "Email": "roxannetillman@ramjob.com",
+      "Password": "amet",
+      "Address": "990 Lawton Street, Blanco, Arizona, 9742",
+      "Phone": "+55 (97)64262-608"
+    },
+    {
+      "Name": "Blanchard Vega",
+      "Email": "blanchardvega@ramjob.com",
+      "Password": "minim",
+      "Address": "689 Corbin Place, Hollymead, District Of Columbia, 2241",
+      "Phone": "+55 (88)55773-939"
+    },
+    {
+      "Name": "Christie Blake",
+      "Email": "christieblake@ramjob.com",
+      "Password": "voluptate",
+      "Address": "830 Nova Court, Nile, Minnesota, 1675",
+      "Phone": "+55 (96)24433-691"
+    },
+    {
+      "Name": "Lelia Owen",
+      "Email": "leliaowen@ramjob.com",
+      "Password": "ea",
+      "Address": "816 Thatford Avenue, Ebro, Federated States Of Micronesia, 6221",
+      "Phone": "+55 (93)74683-992"
+    },
+    {
+      "Name": "Sonja White",
+      "Email": "sonjawhite@ramjob.com",
+      "Password": "ut",
+      "Address": "313 Ainslie Street, Wintersburg, Missouri, 5336",
+      "Phone": "+55 (82)45542-163"
+    },
+    {
+      "Name": "Colon Bennett",
+      "Email": "colonbennett@ramjob.com",
+      "Password": "consequat",
+      "Address": "613 Royce Place, Brutus, Nebraska, 6693",
+      "Phone": "+55 (90)04392-299"
+    },
+    {
+      "Name": "Grimes Pacheco",
+      "Email": "grimespacheco@ramjob.com",
+      "Password": "cupidatat",
+      "Address": "748 Cambridge Place, Kansas, Indiana, 6529",
+      "Phone": "+55 (88)54032-606"
+    },
+    {
+      "Name": "Cox Barry",
+      "Email": "coxbarry@ramjob.com",
+      "Password": "exercitation",
+      "Address": "476 Story Street, Coalmont, Alaska, 2816",
+      "Phone": "+55 (83)85212-025"
+    },
+    {
+      "Name": "House Leon",
+      "Email": "houseleon@ramjob.com",
+      "Password": "quis",
+      "Address": "695 Erskine Loop, Rosine, Tennessee, 3640",
+      "Phone": "+55 (84)95163-979"
+    },
+    {
+      "Name": "Darla Allison",
+      "Email": "darlaallison@ramjob.com",
+      "Password": "et",
+      "Address": "879 Anna Court, Fairlee, Mississippi, 544",
+      "Phone": "+55 (93)04752-313"
+    },
+    {
+      "Name": "Mayo Walker",
+      "Email": "mayowalker@ramjob.com",
+      "Password": "enim",
+      "Address": "544 Gelston Avenue, Vallonia, Louisiana, 9943",
+      "Phone": "+55 (80)64633-843"
+    },
+    {
+      "Name": "Davidson Lyons",
+      "Email": "davidsonlyons@ramjob.com",
+      "Password": "laboris",
+      "Address": "155 Stewart Street, Blende, Virgin Islands, 1184",
+      "Phone": "+55 (91)04492-488"
+    },
+    {
+      "Name": "Jarvis Mccoy",
+      "Email": "jarvismccoy@ramjob.com",
+      "Password": "quis",
+      "Address": "802 Senator Street, Worton, Connecticut, 8242",
+      "Phone": "+55 (85)85362-083"
+    },
+    {
+      "Name": "Jolene Castillo",
+      "Email": "jolenecastillo@ramjob.com",
+      "Password": "excepteur",
+      "Address": "902 Kingsland Avenue, Fulford, Montana, 7450",
+      "Phone": "+55 (81)54002-011"
+    },
+    {
+      "Name": "Barbra Bush",
+      "Email": "barbrabush@ramjob.com",
+      "Password": "reprehenderit",
+      "Address": "103 Franklin Avenue, Sabillasville, California, 2222",
+      "Phone": "+55 (82)85523-551"
+    },
+    {
+      "Name": "Bender Booth",
+      "Email": "benderbooth@ramjob.com",
+      "Password": "duis",
+      "Address": "603 Bayview Avenue, Dragoon, Massachusetts, 4164",
+      "Phone": "+55 (89)25093-718"
+    },
+    {
+      "Name": "Bernadine Fields",
+      "Email": "bernadinefields@ramjob.com",
+      "Password": "eu",
+      "Address": "493 Adelphi Street, Catharine, South Carolina, 9336",
+      "Phone": "+55 (83)34553-975"
+    },
+    {
+      "Name": "Sparks Gill",
+      "Email": "sparksgill@ramjob.com",
+      "Password": "pariatur",
+      "Address": "446 Durland Place, Emison, American Samoa, 149",
+      "Phone": "+55 (89)84133-248"
+    },
+    {
+      "Name": "Roman Christian",
+      "Email": "romanchristian@ramjob.com",
+      "Password": "ipsum",
+      "Address": "848 Cook Street, Ticonderoga, Pennsylvania, 7108",
+      "Phone": "+55 (85)45153-500"
+    },
+    {
+      "Name": "Christensen Mcclure",
+      "Email": "christensenmcclure@ramjob.com",
+      "Password": "et",
+      "Address": "939 Friel Place, Sedley, Vermont, 9863",
+      "Phone": "+55 (92)75383-509"
+    }
+  ]
 
 }

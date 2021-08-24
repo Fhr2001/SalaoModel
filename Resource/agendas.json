@@ -1,3 +1,205 @@
 {
-
+  "Schedule":
+  [
+    {
+      "DateTime": "2021-03-30T04:58:35 +03:00",
+      "Services": [
+        {
+          "Name": "Reflexo",
+          "Price": "$407.42",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-06-21T10:32:21 +03:00",
+      "Services": [
+        {
+          "Name": "Drenagem Linfática",
+          "Price": "$927.00",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-04-04T03:48:10 +03:00",
+      "Services": [
+        {
+          "Name": "Drenagem Linfática",
+          "Price": "$615.03",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-08-16T10:00:24 +03:00",
+      "Services": [
+        {
+          "Name": "Reflexo",
+          "Price": "$895.16",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-05-17T03:09:46 +03:00",
+      "Services": [
+        {
+          "Name": "Pedicure",
+          "Price": "$152.04",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-02-25T07:01:11 +03:00",
+      "Services": [
+        {
+          "Name": "Hidratação Facial",
+          "Price": "$626.99",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-06-04T06:41:12 +03:00",
+      "Services": [
+        {
+          "Name": "Coloração",
+          "Price": "$974.77",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-08-05T10:42:45 +03:00",
+      "Services": [
+        {
+          "Name": "Coloração",
+          "Price": "$1,074.80",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-04-28T11:09:18 +03:00",
+      "Services": [
+        {
+          "Name": "Mechas",
+          "Price": "$585.31",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-08-18T03:46:27 +03:00",
+      "Services": [
+        {
+          "Name": "Maquiagem",
+          "Price": "$634.92",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-04-06T12:48:32 +03:00",
+      "Services": [
+        {
+          "Name": "Hidratação Facial",
+          "Price": "$350.03",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-07-03T06:57:55 +03:00",
+      "Services": [
+        {
+          "Name": "Manicure",
+          "Price": "$701.30",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-05-27T12:36:01 +03:00",
+      "Services": [
+        {
+          "Name": "Mechas",
+          "Price": "$511.90",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-05-13T08:20:40 +03:00",
+      "Services": [
+        {
+          "Name": "Pedicure",
+          "Price": "$1,007.08",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-06-27T10:31:08 +03:00",
+      "Services": [
+        {
+          "Name": "Reflexo",
+          "Price": "$238.43",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-02-09T05:30:04 +03:00",
+      "Services": [
+        {
+          "Name": "Mechas",
+          "Price": "$670.08",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-04-09T03:26:40 +03:00",
+      "Services": [
+        {
+          "Name": "Hidratação",
+          "Price": "$201.79",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-06-27T04:36:20 +03:00",
+      "Services": [
+        {
+          "Name": "Manicure",
+          "Price": "$560.49",
+          "Status": "Inactive"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-05-29T12:30:21 +03:00",
+      "Services": [
+        {
+          "Name": "Reconstrução",
+          "Price": "$885.24",
+          "Status": "Active"
+        }
+      ]
+    },
+    {
+      "DateTime": "2021-05-11T08:32:36 +03:00",
+      "Services": [
+        {
+          "Name": "Coloração",
+          "Price": "$548.71",
+          "Status": "Active"
+        }
+      ]
+    }
+  ]
 }
