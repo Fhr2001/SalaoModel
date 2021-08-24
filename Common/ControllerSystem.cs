@@ -57,5 +57,15 @@ namespace Salão_Model.Common
             agendas.Add(agenda);
             return agenda;
         }
+
+        public List<Service> GetServices()
+        {
+            return services;
+        }
+
+        public bool CheckAvailability(Service service)
+        {
+            return true;
+        }
     }
 }

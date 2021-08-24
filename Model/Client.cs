@@ -38,7 +38,7 @@ namespace Salão_Model.Model
         public List<ServiceProvider> GetServiceProvider(DateTime dateTime){
             if (dateTime == null)
                 return ServicesProvided;
-            return ServiceProvider.GetAgendas(dateTime);
+            return ServiceProvider.GetFiltered(dateTime);
         }
 
         public bool ValidateConclusion(Service service){
