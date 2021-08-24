@@ -115,6 +115,10 @@ namespace Salão_Model.Common
             serviceProviders[index] = agenda.ServiceProvider;
         }
 
+        public void AddLincensedService(Provider provider, Service service)
+        {
+            provider.AddLincensedService(service);
+        }
 
         public void RegisterFinish(Agenda agenda)
         {

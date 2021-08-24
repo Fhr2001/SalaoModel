@@ -25,6 +25,13 @@ namespace Salão_Model.Model
             ServiceProvider.Finish();
         }
 
+        public Client LinkToClient(Client client)
+        {
+            client.AddAgenda(this);
+            return client;
+        }
+
+        #region Static Methods
         public static bool CheckAvailability(List<Agenda> agendas, Agenda agenda)
         {
             return agendas.Exists(
@@ -36,5 +43,6 @@ namespace Salão_Model.Model
         {
             return agendas.FindAll(ag => ag.ServiceProvider.Provider == provider);
         }
+        #endregion
     }
 }

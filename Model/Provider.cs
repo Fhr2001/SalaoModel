@@ -14,10 +14,16 @@ namespace Salão_Model.Model
             Email = email;
             Password = password;
             Phone = phone;
+            LicensedServices = new List<Service>();
         }
 
         public override bool Login(List<User> users, string email, string password){
             throw new NotImplementedException();
+        }
+
+        public void AddLincensedService(Service service)
+        {
+            LicensedServices.Add(service);
         }
     }
 }
