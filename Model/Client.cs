@@ -64,6 +64,18 @@ namespace Salão_Model.Model
         {
             return (Client)users.FindLast(u => u.Email == email && u.Password == password && u.GetType() == typeof(Client));
         }
+
+        public static List<Client> GetClients(List<User> users)
+        {
+            var objs = users.FindAll(u => u.GetType() == typeof(Client));
+            var clients = new List<Client>();
+            foreach (var obj in objs)
+            {
+                clients.Add(obj as Client);
+            }
+
+            return clients;
+        }
         #endregion
     }
 }

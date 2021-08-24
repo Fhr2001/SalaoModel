@@ -53,6 +53,11 @@ namespace Salão_Model.Common
             return currentClient;
         }
 
+        public List<Client> ReadListClient()
+        {
+            return Client.GetClients(users);
+        }
+
         public Client UpdateClient(string email, string password, string gender, string phone, string address)
         {
             int index = GetIndexOfUsers(currentClient);
