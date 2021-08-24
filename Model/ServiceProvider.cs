@@ -26,6 +26,7 @@ namespace Salão_Model.Model
             Status = ServiceProviderStatus.Concluded;
         }
 
+        #region Static Methods
         public static List<Agenda> GetAgendas(DateTime dateTime)
         {
             return new List<Agenda>();
@@ -35,5 +36,7 @@ namespace Salão_Model.Model
         {
             return new List<ServiceProvider>();
         }
+        #endregion
+
     }
 }
