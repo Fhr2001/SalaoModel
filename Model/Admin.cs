@@ -13,7 +13,7 @@ namespace Salão_Model.Model
             Password = password;
         }
 
-        public override bool Login(string email, string password){
+        public override bool Login(List<User> users, string email, string password){
             throw new NotImplementedException();
         }
     }

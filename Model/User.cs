@@ -12,6 +12,6 @@ namespace Salão_Model.Model
         public string Email { get; set; }
         public string Password { get; set; }
 
-        public abstract bool Login(string email, string password);
+        public abstract bool Login(List<User> users, string email, string password);
     }
 }

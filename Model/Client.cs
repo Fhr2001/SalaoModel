@@ -10,6 +10,11 @@ namespace Salão_Model.Model
         private List<ServiceProvider> ServicesProvided;
         private List<Agenda> Agendas;
 
+        public Client()
+        {
+
+        }
+
         public Client(string name, string email, string password, string phone, string gender, Location address)
         {
             Name = name;
@@ -22,8 +27,17 @@ namespace Salão_Model.Model
             Agendas = new List<Agenda>();
         }
 
-        public override bool Login(string email, string password){
-            throw new NotImplementedException();
+        public override bool Login(List<User> users, string email, string password){
+            return GetClient(users, email, password) != null;
+        }
+
+        public void Update(string email, string password, string gender, string phone, Location address)
+        {
+            Email = email ?? Email;
+            Password = password ?? Password;
+            Gender = gender ?? Gender;
+            Phone = phone ?? Phone;
+            Address = address ?? Address;
         }
 
         public void AddAgenda(Agenda agenda){
@@ -44,5 +58,12 @@ namespace Salão_Model.Model
         public bool ValidateConclusion(Service service){
             throw new NotImplementedException();
         }
+
+        #region Static Methods
+        public static Client GetClient(List<User> users, string email, string password)
+        {
+            return (Client)users.FindLast(u => u.Email == email && u.Password == password && u.GetType() == typeof(Client));
+        }
+        #endregion
     }
 }

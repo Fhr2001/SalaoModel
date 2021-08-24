@@ -11,10 +11,14 @@ namespace Salão_Model.Model
         public double Price { get; set; }
         public ServiceStatus Status { get; set; }
 
-        public Service()
+        public Service(string name, double price)
         {
-            
+            Name = name;
+            Price = price;
+            Status = ServiceStatus.Active;
         }
+
+
 
     }
 }
